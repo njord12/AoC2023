@@ -35,6 +35,9 @@ ghc-options:
 
 library:
   source-dirs: src
+  dependencies:
+  - split
+  - extra
 
 executables:
   AoC2023-exe:
