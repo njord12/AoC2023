@@ -21,7 +21,7 @@ getAllCalibrationValues :: [String] -> [Int]
 getAllCalibrationValues = map getCalibrationValue 
 
 spelledDigits :: [(String, String)]
-spelledDigits = [("one", "1"), ("two", "2"), ("three", "3"), ("four", "4"), ("five", "5"), ("six", "6"), ("seven", "7"), ("eight", "8"), ("nine", "9")]
+spelledDigits = [("one", "o1e"), ("two", "t2o"), ("three", "t3ree"), ("four", "f4ur"), ("five", "fi5ve"), ("six", "s6x"), ("seven", "sev7n"), ("eight", "eig8t"), ("nine", "n9ne")]
 
 replace :: String -> String -> String -> String
 replace from to = intercalate to . splitOn from
