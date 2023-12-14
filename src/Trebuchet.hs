@@ -1,7 +1,7 @@
 module Trebuchet (getAllCalibrationValues,processString,replace,spelledDigits, doTheStuff)
 where
-import Data.Char (isNumber, isAlpha, isDigit)
 import Data.List(intercalate)
+import Data.Char(isNumber)
 import Data.List.Split(splitOn)
 
 
